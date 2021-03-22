@@ -11,15 +11,19 @@ export class HeroComponent implements OnInit {
   heroDescription:string;
   heroButton:string;
   heroButtonUrl:string;
+  winterTrips: string;
+  winterTripsImg: string;
 
   constructor() { 
     this.heroHeading="Welcome to Winter Tour in Austria";
     this.heroDescription = "We are your ultimate Winter experience Provider!"
     this.heroButton = "Learn more"
     this.heroButtonUrl = "./about"
+    this.winterTrips ="Best Winter Trips"
   }
 
   ngOnInit(): void {
+    
   }
 
 }
