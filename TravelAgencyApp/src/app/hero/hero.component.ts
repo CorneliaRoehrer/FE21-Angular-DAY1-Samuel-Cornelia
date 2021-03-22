@@ -7,9 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeroComponent implements OnInit {
 
-  constructor() { }
+  heroHeading:string;
+  heroDescription:string;
+  heroButton:string;
+  heroButtonUrl:string;
+
+  constructor() { 
+    this.heroHeading="Welcome to Winter Tour in Austria";
+    this.heroDescription = "We are your ultimate Winter experience Provider!"
+    this.heroButton = "Learn more"
+    this.heroButtonUrl = "./about-us"
+  }
 
   ngOnInit(): void {
   }
 
 }
+
