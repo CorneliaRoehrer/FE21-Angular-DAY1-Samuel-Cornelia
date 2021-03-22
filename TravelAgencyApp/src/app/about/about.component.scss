@@ -1,0 +1,13 @@
+.about_wrapper {
+    background-color: rgb(117, 172, 232);
+    height: 25vw;
+    .icons_wrapper {
+        display: flex;
+        justify-content: space-evenly;
+        flex-flow: row wrap;
+    }
+    .span_wrapper {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

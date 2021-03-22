@@ -7,7 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
-  constructor() { }
+  AboutHeading:string;
+
+ 
+  constructor() { 
+
+    this.AboutHeading = "Why we are the best"
+  }
 
   ngOnInit(): void {
   }
